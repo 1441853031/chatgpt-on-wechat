@@ -1,7 +1,8 @@
+from .mj import *
 from .event import *
 from .plugin import *
 from .plugin_manager import PluginManager
-from .mj import *
+
 
 instance = PluginManager()
 
